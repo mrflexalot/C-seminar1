@@ -9,10 +9,14 @@ Console.WriteLine("Write a number b: ");
 int b = int.Parse(Console.ReadLine());
 
 if (a < b)
-    Console.WriteLine("number b is greater than number a");
-
+{
+    Console.WriteLine("number 'b' is greater than number 'a' and equals:");
+    Console.WriteLine(b);
+}
 if (a > b)
-    Console.WriteLine("number a is greater than number b");
-
+{
+    Console.WriteLine("number 'a' is greater than number 'b' and equals:");
+    Console.WriteLine(a);
+}
 if (a == b)
     Console.WriteLine("Numbers are equal");
