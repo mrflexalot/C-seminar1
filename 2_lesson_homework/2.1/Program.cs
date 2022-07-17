@@ -8,4 +8,11 @@ int result(int a)
 }
 Console.WriteLine("enter 3-digit number");
 int a = int.Parse(Console.ReadLine());
-Console.WriteLine($"second digit of your number is: {result(a)}");
+if (a < 1000 && a > 99)
+{
+        Console.WriteLine($"second digit of your number is: {result(a)}");
+}
+else
+{
+    Console.WriteLine($"{a} is not a 3-digit number!");
+}
