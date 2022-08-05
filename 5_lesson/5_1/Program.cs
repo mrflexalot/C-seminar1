@@ -12,23 +12,23 @@ void Print(int[] arr)
 }
 
 int[] MassNums(int size, int from, int to)
-{   
+{
     int[] arr = new int[size];
 
     for (int i = 0; i < size; i++)
     {
-        arr[i] = new Random().Next(from, to);        
-    }    
+        arr[i] = new Random().Next(from, to);
+    }
     return arr;
 }
 
 void Ism(int[] arr)
 {
 
-    for(int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
 
         arr[i] = arr[i] * -1;
-       
+
 }
 
 int[] arr_1 = MassNums(12, -9, 10);
